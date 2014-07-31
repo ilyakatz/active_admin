@@ -71,7 +71,7 @@
 
       &.current > a {
         background: $current-menu-item-background;
-        color: #fff;
+        color: $current-menu-item-color;
       }
 
       &.has_nested > a {
@@ -95,7 +95,6 @@
         background: $hover-menu-item-background image-url('active_admin/nested_menu_arrow_dark.gif') no-repeat calc(100% - 7px) 50%;
         z-index: 1020;
       }
-
 
       /* Hover on li, display the ul */
       &:hover ul { display: block;}
